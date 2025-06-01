@@ -1,13 +1,14 @@
 """
-Provides utility functions for converting Celsius to Fahrenheit and vice versa.
+Provide utility functions for converting Celsius to Fahrenheit and vice versa.
 Code by: Miss Ghost/April First
 """
 def main():
     MENU = """
-    C - Convert Celsius to Fahrenheit
-    F - Convert Fahrenheit to Celsius
-    Q - Quit
-    """
+C - Convert Celsius to Fahrenheit
+F - Convert Fahrenheit to Celsius
+Q - Quit
+"""
+
     print(MENU)
     choice = input(">>> ").upper()
     while choice != "Q":

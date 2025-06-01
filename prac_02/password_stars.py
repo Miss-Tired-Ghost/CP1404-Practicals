@@ -1,5 +1,5 @@
 """
-Provides utility functions for obtaining and displaying passwords.
+Provide utility functions for obtaining and displaying passwords.
 Code by: Miss Ghost/April First
 """
 def main():

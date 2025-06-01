@@ -1,5 +1,5 @@
 """"
-Provides a menu for score.py
+Provide a menu for score.py
 Code by: Miss Ghost/April First
 """
 import score

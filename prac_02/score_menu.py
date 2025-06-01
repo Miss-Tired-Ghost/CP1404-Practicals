@@ -18,10 +18,7 @@ def main():
     while choice != "Q":
         match choice:
             case "G":
-                current_score = int(input("Enter your score: "))
-                while current_score < 0 or current_score > 100:
-                    print("Score should be between 0 and 100 inclusive")
-                    current_score = int(input("Enter your score: "))
+                current_score = score.get_score()
 
             case "P":
                 print(score.determine_result(current_score))

@@ -11,6 +11,7 @@ def print_censored_text(text):
     print("*" * len(text))
 
 def get_password(minimum_length):
+    """Gets a password from a user, ensuring it has the minimum length."""
     password = input("Password: ")
     while len(password) < minimum_length:
         print(f"Password must have at least {minimum_length} characters")

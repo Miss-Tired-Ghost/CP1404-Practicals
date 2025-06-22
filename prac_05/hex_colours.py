@@ -15,6 +15,10 @@ COLOUR_TO_HEX = {"AMARANTH": "#e52b50",
 
 
 def main():
+    """
+    Get colour and convert to hex until no input detected
+    :return:
+    """
     colour = input("Enter a colour: ").upper()
     while colour != "":
         try:

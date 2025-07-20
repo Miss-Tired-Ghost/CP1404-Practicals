@@ -29,6 +29,6 @@ Task:       0%
 ## Special Thanks
 
 [Lindsay Ward](https://github.com/lindsaymarkward) (Instructor) Created the tasks and provided lots of feedback  
-[AT-UNDERMINER](https://github.com/AT-UNDERMINER) (Peer) Completed the code review for Prac 06  
+[Damien Turner](https://github.com/AT-UNDERMINER) (Peer) Completed the code review for Prac 06  
 
 

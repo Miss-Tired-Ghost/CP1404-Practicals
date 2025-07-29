@@ -1,0 +1,23 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: input_miles
+            text: '34'
+            on_text: app.convert_miles_km()
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_x: 0.25
+            Button:
+                text: 'Up'
+                on_press: app.handle_increment(1)
+            Button:
+                text: 'Down'
+                on_press: app.handle_increment(-1)
+#    Button:
+#        text: 'Convert miles to km'
+#        on_press: app.convert_miles_km()
+    Label:
+        text: app.output_kilometers
+        color: (1,0,0,1)
